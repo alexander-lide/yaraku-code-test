@@ -28,7 +28,7 @@ class LibraryCollection extends Collection
     }
 
     // Return array ready to use as options in FormSelect component
-    public function getAsOptionsArray( string $value = 'id', string $name ):array
+    public function getAsOptionsArray( string $value, string $name ):array
     {
         $options = [];
         foreach ($this as $item)
